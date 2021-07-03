@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+
+* {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(240, 159, 130);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+header .titulo,
+.subtitulo {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  width: fit-content;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 10px !important;
+}
+
+.subtitulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: fit-content;  
+  background-color: rgb(240, 240, 240);
+}
+nav{
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgb(253, 237, 180);
+  height: 30px;
+}
+nav > a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+main{
+  display: flex;
+}
+article{  
+  background-color: rgb(236, 159, 198);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.image{
+  margin: 10px;
+}
+section{
+  background-color: rgb(169,219,221);
+}
+.tarjeta1{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 20px;
+}
+.tarjeta1 > p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tarjeta2{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-top: 0;;
+}
+.tarjeta2 > p{
+  text-align: justify;
+  margin: 50px;
+}
+aside{
+  padding: 5%;
+  background-color: rgb(159, 221, 159);
+  width: 30%;
+}
+aside > h3, h4{
+  text-align: center;
+}
+aside > p {
+  margin-bottom: 100px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(174, 196, 245);
+  height: 80px;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
